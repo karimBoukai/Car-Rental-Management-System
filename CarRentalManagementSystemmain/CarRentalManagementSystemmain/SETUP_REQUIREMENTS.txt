@@ -1,0 +1,38 @@
+Car Rental Management System - Setup Requirements
+
+Required software:
+1. Java 8 JDK or JRE
+2. MySQL Server
+3. MySQL Workbench, optional but recommended for importing/checking the database
+
+Included libraries:
+- The MySQL connector is already included in:
+  dist/lib/mysql-connector-j-9.7.0.jar
+- Other project libraries are also included in dist/lib.
+
+Run command:
+java -cp "dist/CarRentalManagementSystem.jar:dist/lib/*" carrentalmanagementsystem.CarRentalManagementSystem
+
+MySQL settings to change:
+Open this file:
+src/carrentalmanagementsystem/database.java
+
+Change these values to match your MySQL Server:
+- host: localhost
+- port: 3306
+- database name: rentcar
+- username: root
+- password: basilasli123
+
+Current connection line:
+jdbc:mysql://localhost:3306/rentcar?useSSL=false&serverTimezone=UTC
+
+Important database note:
+The app will not work unless the MySQL database named rentcar exists and contains
+the required tables, including admin, car, and customer. If you send this project
+to another person, also send them a MySQL export/dump of the rentcar database or
+give them SQL commands to create the database and tables.
+
+Login note:
+The app login password is not the same thing as the MySQL Server password.
+App accounts are stored in the admin table inside the rentcar database.

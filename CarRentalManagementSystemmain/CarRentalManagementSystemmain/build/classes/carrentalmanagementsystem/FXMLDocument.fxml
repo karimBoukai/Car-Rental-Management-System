@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carrentalmanagementsystem.FXMLDocumentController">
+   <children>
+      <AnchorPane fx:id="main_form" prefHeight="520.0" prefWidth="780.0" styleClass="login-stage" stylesheets="@loginDesign.css">
+         <children>
+            <AnchorPane layoutX="30.0" layoutY="34.0" prefHeight="452.0" prefWidth="720.0" styleClass="login-shell" stylesheets="@loginDesign.css">
+               <children>
+                  <FontAwesomeIcon fill="WHITE" glyphName="CAR" layoutX="58.0" layoutY="160.0" size="8em" />
+                  <Label layoutX="55.0" layoutY="180.0" text="DriveDesk" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="46.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="58.0" layoutY="235.0" prefHeight="56.0" prefWidth="315.0" text="Car rental operations, fleet control, and checkout in one colorful workspace." textFill="#e0f2fe" wrapText="true">
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="405.0" layoutY="58.0" prefHeight="335.0" prefWidth="275.0" styleClass="login-card" stylesheets="@loginDesign.css">
+                     <children>
+                        <FontAwesomeIcon fill="#2563eb" glyphName="LOCK" layoutX="121.0" layoutY="72.0" size="3em" />
+                        <Label layoutX="75.0" layoutY="88.0" text="Admin Login" textFill="#16213e">
+                           <font>
+                              <Font name="Arial Bold" size="25.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="username" layoutX="34.0" layoutY="145.0" onAction="#loginAdmin" prefHeight="36.0" prefWidth="208.0" promptText="Username" styleClass="textfield" stylesheets="@loginDesign.css" />
+                        <PasswordField fx:id="password" layoutX="34.0" layoutY="195.0" onAction="#loginAdmin" prefHeight="36.0" prefWidth="208.0" promptText="Password" styleClass="textfield" stylesheets="@loginDesign.css" />
+                        <Button fx:id="loginBtn" layoutX="34.0" layoutY="256.0" mnemonicParsing="false" onAction="#loginAdmin" prefHeight="42.0" prefWidth="208.0" styleClass="login-btn" stylesheets="@loginDesign.css" text="Open Dashboard" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <Button fx:id="close" layoutX="720.0" layoutY="18.0" mnemonicParsing="false" onAction="#close" prefHeight="30.0" prefWidth="42.0" styleClass="close" stylesheets="@loginDesign.css">
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" glyphName="CLOSE" size="1.2em" />
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
