@@ -169,25 +169,33 @@ This project demonstrates:
 ## 📸 Screenshots
 
 ### Login Screen
-_Add screenshot here_
+<img width="1560" height="1044" alt="WhatsApp Image 2026-06-04 at 12 53 40 AM" src="https://github.com/user-attachments/assets/cc8a3edf-2ca4-4912-a7a1-a1e9d37d0f32" />
+
 
 ### Dashboard
-_Add screenshot here_
+<img width="1600" height="1018" alt="WhatsApp Image 2026-06-04 at 12 53 40 AM (1)" src="https://github.com/user-attachments/assets/2e83cad3-d821-478a-9a4d-027f72982aa7" />
+
 
 ### Vehicle Management
-_Add screenshot here_
+<img width="1600" height="1018" alt="WhatsApp Image 2026-06-04 at 12 53 40 AM (3)" src="https://github.com/user-attachments/assets/dcdf2e4b-7991-4955-a528-df6fdf7fd1e2" />
+
 
 ### Rental Processing
-_Add screenshot here_
+<img width="1600" height="1018" alt="WhatsApp Image 2026-06-04 at 12 53 40 AM (3)" src="https://github.com/user-attachments/assets/cafe8e07-7c03-4755-8cf9-86138962aa1c" />
+
 
 ### Analytics Dashboard
-_Add screenshot here_
+<img width="1600" height="1002" alt="WhatsApp Image 2026-06-04 at 12 53 40 AM (4)" src="https://github.com/user-attachments/assets/cd995f4f-0c10-4dc3-8f23-19d7d5f2e049" />
+
 
 ---
 
 ## 👨‍💻 Author
 
-**Karim Boukai**  
+**Karim Boukai**
+**Ahmad Saeedy**
+**Hamza Malas**
+
 Software Engineering Student  
 Bahçeşehir University
 
